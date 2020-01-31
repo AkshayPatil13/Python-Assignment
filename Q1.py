@@ -25,7 +25,7 @@ def calculate_square_root():
     C = 50
     H = 30
     result = []
-    user_input = map(int,raw_input('Enter values of d comma seperated : ').split(','))
+    user_input = map(int,raw_input('Enter values of D comma seperated : ').split(','))
 
     for value in user_input:
      result.append(int(round(math.sqrt((2 * C * value)/H))))
